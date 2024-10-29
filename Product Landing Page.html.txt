@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+  <header id="header">
+    <img id="header-img" src="https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2024-06/240610-beauty-awards-2024-hair-care-winners-kb-main-d90155.jpg" alt="Product Logo">
+    <nav id="nav-bar">
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#video" class="nav-link">Video</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Welcome to Our Product</h1>
+    <p>The perfect solution for all your needs.\</p>
+    <a href="#form" class="cta-button">Get Started</a>
+  </section>
+
+  <section id="newsletter">
+  <h2>Subscribe to Our Newsletter</h2>
+  <p>Stay updated with our latest news and offerings. Sign up now!</p>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <input type="submit" id="submit" value="Subscribe">
+  </form>
+</section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <div class="features-container">
+      <div class="feature">
+        <h3>Feature 1</h3>
+        <p>Learn how our products can transform your hair, enhancing strength, shine, and overall health.</p>
+      </div>
+      <div class="feature">
+        <h3>Feature 2</h3>
+        <p>Enjoy the powerful effects of carefully chosen ingredients designed to nourish and protect your hair.</p>
+      </div>
+      <div class="feature">
+        <h3>Feature 3</h3>
+        <p>Our premium hair care solutions bring professional results to you, right where you are.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="video-section">
+    <h2>Product Video</h2>
+    <iframe id="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-container">
+      <div class="plan">
+        <h3>Basic Plan</h3>
+        <p>Free</p>
+        <p>Access to essential hair care tips</p>
+      </div>
+      <div class="plan">
+        <h3>Pro Plan</h3>
+        <p>$9.99/mo</p>
+        <p>Access to all hair care tips and tutorials</p>
+      </div>
+      <div class="plan">
+        <h3>Premium Plan</h3>
+        <p>$19.99/mo</p>
+        <p>Premium, personalized hair care consultations</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
